@@ -1,0 +1,58 @@
+.day {
+    display: flex;
+    border: groove 3px teal;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 200px;
+    margin: 50px 0px;
+    color: teal;
+    background-color: white;
+    font-size: medium;
+    font-family: Helvetica, sans-serif;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    
+    /*change color and font*/
+    /*change color of border*/
+}
+
+.everydude {
+    padding: auto;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+.forecast-box {
+    /*border: dashed 7px red;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.initialWeather {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    border: groove 3px teal;
+    border-radius: 5px;
+    border-width: 50px;
+    color: teal;
+    font-size: medium;
+    font-family: Helvetica, sans-serif;
+}
+
+.githubLink {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: groove 3px teal;
+    border-radius: 5px;
+    border-width: 10px;
+    color: black;
+    background-color: #90E4C1;
+    font-size: medium;
+    font-family: Helvetica, sans-serif;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-weight: 750;
+}

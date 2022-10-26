@@ -1,0 +1,176 @@
+.bg-light {
+  background-color: #004c4c !important;
+}
+
+.nav-item-nav-link {
+    color: #fdf5e6;
+    padding: 20px;
+}
+
+.nav-item-nav-link:hover,
+.nav-item-nav-link:visited:hover {
+    color: #66b2b2;
+}
+
+.allison-brand {
+    width: 250px;
+}
+
+.welcome-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Teletype", monospace !important;
+    padding-top: 50px !important;
+}
+
+.welcome-bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Teletype", inherit !important;
+    background-color: #008080;
+    color: #fff5ee;
+    border-radius: 25px;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Teletype", monospace !important;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Teletype", monospace !important;
+    padding-top: 30px !important;
+}
+
+.about-me-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.about-me-bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Teletype", inherit !important;
+    background-color: #008080;
+    color: #fff5ee;
+    border-radius: 25px;    
+}
+
+/* Image Grid */
+.portfolio {
+  display: grid;
+  grid-template: auto auto auto auto auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.gallery-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Teletype", monospace !important;
+    padding-top: 30px !important;
+}
+
+.reviews-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Teletype", monospace !important;
+    padding: 20px 20px 20px 20px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    font-family: "Teletype", inherit !important;
+}
+
+.review-1 {
+    background-color: #a0d6b4;
+    background-position: left;
+    color: #49796b;
+    border-radius: 25px;
+    padding: auto;
+}
+
+.review-2 {
+    background-color: #5f9ea0;
+    background-position: right;
+    color: #fdf5e6;
+    border-radius: 25px;
+    padding: auto;
+}
+
+.review-3 {
+    background-color: #a0d6b4;
+    background-position: left;
+    color: #49796b;
+    border-radius: 25px;
+    padding: auto;
+}
+
+.review-4 {
+    background-color: #5f9ea0;
+    background-position: right;
+    color: #fdf5e6;
+    border-radius: 25px;
+    padding: auto;
+}
+
+@media only screen and (max-width: 400px) {
+    .review-1,
+    .review-2,
+    .review-3,
+    .review-4 {
+        width: 50%;
+    }
+}
+
+/*Tablet Styles*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+        .review-1,
+        .review-2,
+        .review-3,
+        .review-4 {
+            width: 50%;
+        }
+    }
+
+/*Desktop Styles*/
+@media only screen and (min-width: 961px) {
+    .welcome-bio,
+    .about-me-bio {
+        width: 960px;
+        margin: 0 auto;
+    }
+    
+    .review-1,
+    .review-2,
+    .review-3,
+    .review-4  {
+        width: 33.33%;
+    }
+}
