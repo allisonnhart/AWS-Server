@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-item: center;
+    text-align: center;
+}
+
+.Top-Title {
+    order: 1;
+    text-align: center;
+    height: 200px;
+    color: #ff0081;
+    background-color: #ffcae5;
+}
+
+.section-content {
+    order: 2;
+    list-style-position: inside;
+    color: #ff48a5;
+    background-color: #ffaed7;
+}
+
+.preamble {
+    order: 3;
+    text-align: left;
+    color: #ffcae5;
+    background-color: #ff77bc;
+}
+
+.second-page-link {
+    order: 4;
+    text-align: right;
+    color: #ffcae5;
+    background-color: #ff0081;
+}
+
+
+
+
+.second-title {
+    order: 1;
+    text-align: center;
+    height: 200px;
+    color: #ff0081;
+    background-color: #ffcae5;
+}
+
+.second-content {
+    order: 2;
+    list-style-position: inside;
+    color: #ff48a5;
+    background-color: #ffaed7;
+}
+
+.second-middle {
+    order: 3;
+    list-style-position: inside;
+    color: #ff48a5;
+    background-color: #ffaed7;
+}
+
+.second-list {
+    order: 4;
+    list-style-position: inside;
+    color: #ff48a5;
+    background-color: #ffaed7;
+}
+
+.second-left-preamble {
+    order: 5;
+    text-align: left;
+    color: #ffcae5;
+    background-color: #ff77bc;
+}
+
+.third-page-link {
+    order: 6;
+    text-align: right;
+    color: #ffcae5;
+    background-color: #ff0081;
+}
+
+
+
+
+
+.third-title {
+    order: 1;
+    text-align: center;
+    height: 200px;
+    color: #ff0081;
+    background-color: #ffcae5;
+}
+
+.third-middle-one {
+    order: 2;
+    list-style-position: inside;
+    color: #ff48a5;
+    background-color: #ffaed7;
+}
+
+.third-middle-two {
+    order: 3;
+    list-style-position: inside;
+    color: #ff48a5;
+    background-color: #ffaed7;
+}
+
+.begin-link {
+    order: 5;
+    text-align: left;
+    color: #ffcae5;
+    background-color: #ff77bc;
+}
+
+.mid-link {
+    order: 6;
+    text-align: right;
+    color: #ffcae5;
+    background-color: #ff0081;
+}
+
+@media only screen and (max-width: 400px) {
+    
+} 
+
+@media only screen and (min-width: 401px) and (max-width: 961px) {
+    .preamble,
+    .second-page-link,
+    .second-middle,
+    .second-list,
+    .third-middle-one,
+    .third-middle-two {
+        width: 50%;
+    }
+    
+@media only screen and (min-width: 961px) {
+    .section-content,
+    .preamble,
+    .second-page-link,
+    .second-left-preamble,
+    .third-page-link,
+    .begin-link,
+    .mid-link {
+        width: 33.33%;
+    }

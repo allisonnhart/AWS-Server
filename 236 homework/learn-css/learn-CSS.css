@@ -1,0 +1,57 @@
+body {
+    background-color: #f0f7da;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+    background-color: #1b4d3e;
+    background-position: center;
+    padding: 20px 20px 20px 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #c9df8a;
+    font-family: monospace;
+}
+
+#bigHeading {
+    color: #e0dbd5;
+    text-align: center;
+}
+
+div {
+    color: #234d20;
+    background-color: #77ab59;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.click1:link,
+.click1:visited {
+    background-color: #77ab59;
+    border-style: solid;
+    border-color: #234d20;
+    color: #234d20;
+}
+
+.click1:hover,
+.click1:visited:hover {
+    background-color: #77ab59;
+    border-style: solid;
+    border-color: #234d20;
+    color: #f0f7da;
+}
+
+.click1:active,
+.click1:visited:active {
+    background-color: #77ab59;
+    border-style: solid;
+    border-color: #234d20;
+    color: #bf0004;
+}

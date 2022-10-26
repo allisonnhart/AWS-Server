@@ -1,0 +1,74 @@
+body {
+    background-color: #ffc2cd;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    background-color: #fc3468;
+    background-position: center;
+    padding: 20px 20px 20px 20px;
+}
+
+h2 {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #ff6289;
+    font-family: monospace;
+}
+
+#biggerHeading {
+    color: #ffc2cd;
+    font-size: xxx-large;
+}
+
+#prepToHeader {
+    text-align: left;
+    color: #ffc2cd;
+    font-weight: bold;
+    background-color: #ff6289;
+}
+
+div {
+    background-color: #ff93ac;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    color: #ff084a;
+}
+
+ol {
+    list-style-type: upper-roman; 
+}
+
+.click2:link,
+.click2:visited,
+.click3:link,
+.click3:visited {
+    background-color: #ff93ac;
+    border-style: solid;
+    border-color: #ff084a;
+    color: #234d20;
+}
+
+.click2:hover,
+.click2:visited:hover,
+.click3:hover,
+.click3:visited:hover {
+    background-color: #ff93ac;
+    border-style: solid;
+    border-color: #ff084a;
+    color: #f0f7da;
+}
+
+.click2:active,
+.click2:visited:active,
+.click3:active,
+.click3:visited:active {
+    background-color: #ff93ac;
+    border-style: solid;
+    border-color: #ff084a;
+    color: #bf0004;
+}
+
