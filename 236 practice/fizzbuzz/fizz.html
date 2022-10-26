@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script>
+        function fizzbuzz() {
+            let num = 0;
+            console.log(num);
+            num++;
+            let ultimate = 100;
+            while (num <= ultimate) {
+              if (num % 3 == 0 && num % 5 == 0) {
+                console.log("FizzBuzz");
+                num++;
+              } else if(num % 3 == 0) {
+                console.log("Fizz");
+                num++;
+              } else if (num % 5 == 0) {
+                console.log("Buzz");
+                num++;
+              } else {
+                console.log(num);
+                num++;
+              }
+            }
+        }
+        
+        function min(x,y) {
+            if (x < y) {
+                return(x);
+            } else {
+                return(y);
+            }
+        }
+        const mintest = function() {
+            // Your code here.
+
+            console.log(min(0, 10));
+            // → 0
+            console.log(min(0, -10));
+            // → -10
+        }
+        
+        isEven = function(x);
+        
+        
+        function testrecurse() {
+            // Your code here.
+
+            console.log(isEven(50));
+            // → true
+            console.log(isEven(75));
+            // → false
+            console.log(isEven(-1));
+            // → ??
+        }
+        
+    </script>
+    </head>
+    <body>
+        <p onclick="fizzbuzz()">Fizzbuzz</p>
+        <p onclick="mintest()">min</p>
+    </body>
+</html>
