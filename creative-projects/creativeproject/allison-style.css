@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", "Times New Roman", serif;
+}
+
+body {
+    background-color: #9ca69e;
+}
+
+.main-logo {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #9ca69e;
+}
+
+.bg-light {
+  background-color: #4d5d53 !important;
+}
+
+.nav-item-nav-link {
+    color: #fdf5e6;
+    padding: 20px;
+}
+
+.nav-item-nav-link:hover,
+.nav-item-nav-link:visited:hover {
+    color: #66b2b2;
+}
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    background-color: #9ca69e;
+    text-align: center;
+    color: white;
+    background-color: #4d5d53;
+    background-size: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 0px -2px 2px rgba(34,34,34,0.6);
+}
+
+.become-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #4d5d53;
+    font-size: 5px;
+}
+
+.form-group,
+.form-control {
+    justify-content: center;
+    width: 500;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-group,
+.list-group-flush,
+.list-group-item {
+    justify-content: center;
+    width: 1000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Mobile Styles*/
+@media only screen and (max-width: 400px) {
+    .main-logo,
+    .bg-light,
+    .about-us,
+    .become-title,
+    .form-control,
+    .list-group,
+    .list-group-flush,
+    .list-group-item,
+    .card-body,
+    .card,
+    .bodystyle,
+    .form,
+    .attribution{
+        width: 70%;
+    }
+    
+    
+}
+
+/*Tablet Styles*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .main-logo,
+    .about-us,
+    .become-title,
+    .form-control,
+    .list-group,
+    .list-group-flush,
+    .list-group-item,
+    .card-body,
+    .card,
+    .bodystyle,
+    .form,
+    .attribution{
+            width: 80%;
+        }
+    }
+
+/*Desktop Styles*/
+@media only screen and (min-width: 961px) {
+    .main-logo,
+    .about-us,
+    .become-title,
+    .form-control,
+    .list-group,
+    .list-group-flush,
+    .list-group-item,
+    .card-body,
+    .card,
+    .bodystyle,
+    .form,
+    .attribution{
+            width: 100%;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+  font-size: 5px;
+}
+
+.form {
+  padding: 5px;
+}
+
+.bodystyle {
+  padding: 30px;
+}
+
+.submit {
+    background-color: darkgreen;
+    border-color: darkgreen;
+}
+
+.card {
+    background-color: #68766d;
+}
+
+.btn {
+    color: black;
+}
+
+.btn:hover {
+    color: darkgray;
+}
+
+.card-body {
+    background-color: lightgray;
+}

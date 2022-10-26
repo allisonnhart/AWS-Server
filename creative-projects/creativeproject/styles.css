@@ -1,0 +1,41 @@
+* {
+  font-family: "Comic Sans MS", "Times New Roman", serif;
+}
+
+.container-fluid {
+ justify-content: center;
+}
+body {
+    background-color: #9ca69e;
+}
+
+.item {
+  background-color: beige;
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+}
+
+.tutor-grid > img {
+  width: 100%;
+}
+
+.attribution > a {
+  font-size: 5px;
+}
+
+.attribution {
+  font-size: 5px;
+}
+
+.tutor {
+  justify-content: center;
+} 
+
+.form {
+  padding: 5px;
+}
+
+.bodystyle {
+  padding: 30px;
+}

@@ -1,0 +1,69 @@
+.hopefully {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: auto;
+}
+
+
+
+img {
+    
+    max-height: 100%;
+    max-width: 100%;
+    filter: saturation(40%);
+    filter: sepia(30%);
+    filter: opacity(80%)
+    
+}
+
+#roots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: auto;
+}
+
+.container-fluid {
+    background-color: 	#ece0d1;
+}
+
+.jumbo-container {
+    color:#800000;
+}
+
+.jumbotron.text-center {
+    background-color: 	#ece0d1;
+}
+
+.cat-logo {
+    width: 40%;
+    height: auto;
+    justify-content: center;
+}
+
+.nav.navbar-nav {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: right;
+}
+
+.footer {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    border: groove 3px #967259;
+    border-radius: 5px;
+    border-width: 20px;
+    color: #967259;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+}
